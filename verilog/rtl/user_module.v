@@ -1,7 +1,7 @@
 module user_module(
   input wire clk,
   input wire [7:0] io_in,
-  output wire [7:0] io_out
+  output wire [7:0] out
 );
   // lint_off MULTIPLY
   function automatic [7:0] umul8b_4b_x_4b (input reg [3:0] lhs, input reg [3:0] rhs);
@@ -42,5 +42,5 @@ module user_module(
   always @ (posedge clk) begin
     p2_n <= p2_n_comb;
   end
-  assign io_out = p2_n;
+  assign out = p2_n;
 endmodule
