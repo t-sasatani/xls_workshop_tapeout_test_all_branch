@@ -7,9 +7,9 @@
     "CLOCK_NET": "ref::$CLOCK_PORT",
     "FP_SIZING": "absolute",
     "DIE_AREA": "0 0 100 100",
+    "FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
     "PL_BASIC_PLACEMENT": 1,
     "PL_TARGET_DENSITY": 0.54,
-    "FP_PIN_ORDER_CFG": "dir::../../openlane/tiny_user_project/pin_order.cfg",
     "SYNTH_USE_PG_PINS_DEFINES": "USE_POWER_PINS",
     "VDD_NETS": [
         "vdd"
