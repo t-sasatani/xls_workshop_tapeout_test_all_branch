@@ -1,5 +1,5 @@
 {
-    "DESIGN_NAME": "tiny_user_project",
+    "DESIGN_NAME": "user_module",
     "DESIGN_IS_CORE": 0,
     "VERILOG_FILES": [
         "dir::../../verilog/rtl/user_module.v",
@@ -7,13 +7,16 @@
         "dir::../../verilog/rtl/defines.v",
         "dir::../../verilog/rtl/tiny_user_project.v"
     ],
-    "CLOCK_TREE_SYNTH": 1,
-    "CLOCK_PORT": "io_in[0]",
-    "CLOCK_NET": "io_in[0]",
+    "CLOCK_TREE_SYNTH": false,
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": "clk",
+    "CLOCK_NET": "ref::$CLOCK_PORT",
     "FP_SIZING": "absolute",
-    "DIE_AREA": "0 0 150 170",
+    "DIE_AREA": "0 0 100 100",
     "PL_BASIC_PLACEMENT": 1,
-    "PL_TARGET_DENSITY": 0.7,
+    "PL_TARGET_DENSITY": 0.54,
+    "FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
+
     "SYNTH_READ_BLACKBOX_LIB": 1,
     "SYNTH_USE_PG_PINS_DEFINES": "USE_POWER_PINS",
     "DIODE_INSERTION_STRATEGY": 4,
