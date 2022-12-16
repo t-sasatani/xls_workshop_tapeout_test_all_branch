@@ -11,5 +11,5 @@ module user_module(
   // lint_on MULTIPLY
   wire [7:0] n;
   assign n = umul8b_4b_x_4b(io_in[3:0], io_in[7:4]);
-  assign out = n;
+  assign io_out = n;
 endmodule
