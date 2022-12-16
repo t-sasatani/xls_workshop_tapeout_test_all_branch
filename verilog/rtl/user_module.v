@@ -1,6 +1,6 @@
 module user_module(
   input wire [7:0] io_in,
-  output wire [7:0] out
+  output wire [7:0] io_out
 );
   // lint_off MULTIPLY
   function automatic [7:0] umul8b_4b_x_4b (input reg [3:0] lhs, input reg [3:0] rhs);
