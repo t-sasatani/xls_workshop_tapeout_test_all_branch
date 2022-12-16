@@ -1,5 +1,5 @@
 {
-    "DESIGN_NAME": "user_module",
+    "DESIGN_NAME": "tiny_user_project",
     "DESIGN_IS_CORE": 0,
     "VERILOG_FILES": [
         "dir::../../verilog/rtl/user_module.v",
